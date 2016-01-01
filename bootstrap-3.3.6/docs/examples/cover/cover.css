@@ -3,11 +3,35 @@
  */
 
 /* Links */
+
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
+a.plink {
+  text-decoration: underline;
+}
+
+a.plink:hover {
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  max-height: 100px;
+  padding: 5px;
+  border: 5px solid #3E495D;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+img:hover {
+  margin-top: 2px;
+}
+
 
 /* Custom default button */
 .btn-default,
@@ -27,8 +51,9 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #3E495D;
 }
+
 body {
   color: #fff;
   text-align: center;
@@ -57,7 +82,6 @@ body {
 .inner {
   padding: 30px;
 }
-
 
 /*
  * Header
