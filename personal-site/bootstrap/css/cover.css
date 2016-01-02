@@ -37,6 +37,10 @@ img:hover {
   font-family: monospace;
 }
 
+.page-header {
+  position: relative;
+}
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
