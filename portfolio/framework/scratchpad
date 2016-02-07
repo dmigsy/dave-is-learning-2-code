@@ -3,3 +3,35 @@ scratchpad
 * {
     border: 1px solid red !important;
 }
+
+
+    max-width: 370px;
+    min-width: 370px;
+    max-height: 220px;
+
+    .middle {
+    margin: auto;
+    width: 90%;
+}
+
+img, embed, object, video {
+     max-width: 100%;
+}
+
+      @media screen and (max-width: 400px) {
+        body {
+          background-color: red;
+        }
+      }
+
+      @media screen and (min-width: 401px) and (max-width: 599px) {
+        body {
+          background-color: green;
+      }
+    }
+
+            @media screen and (min-width: 600px) {
+        body {
+              background-color: blue;
+      }
+    }
