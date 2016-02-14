@@ -5,11 +5,14 @@ module.exports = function(grunt) {
       dev: {
         options: {
           sizes: [{
-            width: 400
+            width: 360,
+            quality: 40
           }, {
-            width: 800
+            width: 868,
+            quality: 40
           }, {
-            width: 1200
+            width: 1200,
+            quality: 80
           }]
         },
         files: [{
