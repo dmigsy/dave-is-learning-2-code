@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>David Milligan's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="David Milligan">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+    <!--navbar-->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Portfolio</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#featured-work">Featured Work<span class="sr-only">(current)</span></a></li>
+              </ul>
+
+            <!--Social icons-->
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://ie.linkedin.com/in/david-milligan-0007256" class="zocial-linkedin" target="_blank"></a></li>
+                <li><a href="https://github.com/dmigsy" class="zocial-github" target="_blank"></a></li>
+                <li><a href="https://twitter.com/Mailvan_glide" class="zocial-twitter" target="_blank"></a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+    <!--header row-->
+        <div class="row" id="header">
+                <div class="col-xs-4" id="logo">
+                    <span class="glyphicon glyphicon-camera"></span>
+                </div>
+                <div class="col-xs-8 name-profession">
+                    <h1>David Milligan</h1>
+                    <h3>Front-End Developer</h3>
+                </div>
+        </div>
+
+    <!--Main image-->
+        <div id="main-image">
+            <figure>
+                <picture>
+                    <img srcset="dist/images/work-station-straight-on-view-800.jpg 1x,
+                    dist/images/work-station-straight-on-view-1200.jpg 2x"
+                    src="dist/images/work-station-straight-on-view-1200.jpg" alt="My workstation" class="img-responsive">
+                </picture>
+            </figure>
+         </div>
+
+    <!--About me-->
+
+        <section>
+            <article>
+                <h2>About me</h2>
+                <p>I'm an experienced Product Owner, based in Dublin, who is learning to code. Excited by great UI & UX.</p>
+                <p>And fail videos.</p>
+            </article>
+        </section>
+
+    <!--Second full width heading-->
+
+        <section>
+            <div class="row featured-work">
+                <h2 id="featured-work">Featured Work</h2>
+            </div>
+
+        <!--3 featured work boxes -->
+             <div class="row">
+                <div class="col-md-4 featured-work">
+                    <figure>
+                        <picture>
+                            <img srcset="dist/images/macbook-air-400.jpeg 1x,
+                            dist/images/macbook-air-800.jpeg 2x"
+                            src="dist/images/macbook-air-800.jpeg" alt="iMac and ipad" class="img-responsive">
+                        </picture>
+                    </figure>
+
+                    <h4>Appify</h4>
+                    <p><a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a></p>
+                </div>
+                <div class="col-md-4 featured-work">
+                        <figure>
+                            <picture>
+                                <img srcset="dist/images/fields-400.jpeg 1x,
+                                dist/images/fields-800.jpeg 2x"
+                                src="dist/images/fields-800.jpeg" alt="Aerial view of field" class="img-responsive">
+                            </picture>
+                        </figure>
+                    <h4>Sunflower</h4>
+                    <p><a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
+                </div>
+                <div class="col-md-4 featured-work">
+                                            <figure>
+                            <picture>
+                                <img srcset="dist/images/frog-400.jpeg 1x,
+                                dist/images/frog-800.jpeg 2x"
+                                src="dist/images/frog-800.jpeg" alt="Frog in pond" class="img-responsive">
+                            </picture>
+                        </figure>
+                    <h4>Bokeh</h4>
+                    <p><a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+    </div>
+
+
+</body>
+</html>
