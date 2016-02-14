@@ -1,32 +1,27 @@
-@media screen and (max-width: 770px) {
-
-    ul {
-        text-align: center;
-    }
-
+/* Header */
+#header {
+    border-bottom: #bbb;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    margin-bottom: 4px;
 }
 
-@media screen and (max-width: 500px) {
-    h1 {
-        font-size: 2em;
-    }
 
-    h3 {
-        font-size: 1.2em
-    }
-
-  #logo {
-        font-size: 1em;
-        position: relative;
-        float: left;
-    }
-
+.glyphicon-camera {
+    font-size: 8em;
 }
 
-img {
-    min-width: 100%;
+
+.name-profession {
+    text-align: right;
 }
 
+
+/* Body */
+body {
+    font-family: 'Roboto mono', sans-serif;
+
+}
 
 
 * {
@@ -36,49 +31,96 @@ img {
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Roboto mono', sans-serif;
 
-}
-
-#header {
-    border-bottom: #bbb;
-    border-bottom-style: solid;
-    border-bottom-width: 4px;
-    margin-bottom: 4px;
-}
-
-.name-profession {
-    text-align: right;
-}
-
-.jumbotron {
-    margin-bottom: 0;
-}
-
-h2,h4 {
+/* Featured Work */
+h2,
+h4 {
     text-align: center;
 }
 
-.glyphicon-camera {
-    font-size: 8em;
-}
 
 p {
     font-size: 1em;
     text-align: center;
 }
 
+
 #modal-first-paragraph {
     padding-top: 1em;
 }
+
 
 .button-block {
     text-align:center;
 }
 
+
 .featured-work-col {
     margin-bottom: 4em;
 }
+
+
+/* Images */
+img {
+    min-width: 100%;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 770px) {
+
+    ul {
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 2em;
+    }
+
+
+    h3 {
+        font-size: 1.2em
+    }
+
+
+    #logo {
+        font-size: 1em;
+        position: relative;
+        float: left;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
