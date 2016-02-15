@@ -60,6 +60,22 @@ p {
 }
 
 
+/* Email form */
+form {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.email-submit {
+    margin-top: 1em;
+}
+
+.footer {
+    height: 7em;
+}
+
+
 /* Images */
 img {
     min-width: 100%;
