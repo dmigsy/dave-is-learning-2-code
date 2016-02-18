@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
     responsive_images: {
       dev: {
         options: {
@@ -22,9 +23,21 @@ module.exports = function(grunt) {
         }]
       }
     },
-  });
+    htmlmin: {                                     // Task
+    dist: {                                      // Target
+      options: {                                 // Target options
+        removeComments: true,
+        collapseWhitespace: true
+      },
+      files: {                                   // Dictionary of files
+        'dist/index.html': 'index.html',     // 'destination': 'source'
+      }
+    },
+  }
+});
 
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-responsive-images');
-  grunt.registerTask('default', ['responsive_images']);
+  grunt.registerTask('default', ['responsive_images', 'htmlmin']);
 };
 
