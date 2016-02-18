@@ -68,9 +68,9 @@
 <div id="main-image">
     <figure>
         <picture>
-            <img srcset="dist/images/work-station-straight-on-view-360.jpg 360w,
-            dist/images/work-station-straight-on-view-868.jpg 868w,
-            dist/images/work-station-straight-on-view-1200.jpg 1200w"
+            <img srcset="dist/images/work-station-straight-on-view-360.jpg 1x,
+            dist/images/work-station-straight-on-view-868.jpg 2x,
+            dist/images/work-station-straight-on-view-1200.jpg 3x"
             src="dist/images/work-station-straight-on-view-1200.jpg" alt="My workstation" class="img-responsive">
         </picture>
     </figure>
@@ -96,9 +96,9 @@
         <div class="col-md-4 featured-work-col">
             <figure>
                 <picture>
-                    <img srcset="dist/images/macbook-air-360.jpeg 360w,
-                    dist/images/macbook-air-868.jpeg 868w,
-                    dist/images/macbook-air-1200.jpeg 1200w"
+                    <img srcset="dist/images/macbook-air-360.jpeg 1x,
+                    dist/images/macbook-air-868.jpeg 2x,
+                    dist/images/macbook-air-1200.jpeg 3x"
                     src="dist/images/macbook-air-868.jpeg" alt="iMac and ipad" class="img-responsive" data-toggle="modal" data-target="#project-0">
                 </picture>
             </figure>
@@ -107,7 +107,7 @@
             <div class="button-block">
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#project-0"><i class="fa fa-info"></i> Details</button>
 
-                <a href="https://github.com/dmigsy/dave-is-learning-2-code" type="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
+                <a href="https://github.com/dmigsy/dave-is-learning-2-code" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
             </div>
 
         </div>
@@ -124,7 +124,7 @@
             <div class="button-block">
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#project-1"><i class="fa fa-info"></i> Details</button>
 
-                <a href="https://github.com/dmigsy/dave-is-learning-2-code" type="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
+                <a href="https://github.com/dmigsy/dave-is-learning-2-code" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
             </div>
 
         </div>
@@ -141,7 +141,7 @@
             <div class="button-block">
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#project-2"><i class="fa fa-info"></i> Details</button>
 
-                <a href="https://github.com/dmigsy/dave-is-learning-2-code" type="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
+                <a href="https://github.com/dmigsy/dave-is-learning-2-code" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
             </div>
         </div>
     </div>
@@ -150,7 +150,7 @@
 
 <!--modals-->
 
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="project-0">
+<div class="modal fade" tabindex="-1" role="dialog" id="project-0">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -160,13 +160,13 @@
     <div class="modal-body">
        <figure>
         <picture>
-            <img srcset="dist/images/macbook-air-360.jpeg 360w,
-            dist/images/macbook-air-868.jpeg 868w,
-            dist/images/macbook-air-1200.jpeg 1200w"
+            <img srcset="dist/images/macbook-air-360.jpeg 1x,
+            dist/images/macbook-air-868.jpeg 2x,
+            dist/images/macbook-air-1200.jpeg 3x"
             src="dist/images/macbook-air-868.jpeg" alt="iMac and ipad" class="img-responsive">
         </picture>
     </figure>
-    <p id="modal-first-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi vel ante venenatis, in vulputate enim viverra. Sed tristique libero ut massa dignissim laoreet. Pellentesque lacinia nunc porta, tincidunt metus id, euismod est. Morbi scelerisque urna sapien, non condimentum nulla sagittis ac. Ut ac diam vel arcu tempus consequat. Mauris ultrices purus quis nibh consequat auctor. Cras vitae magna ut sem eleifend auctor non vitae elit. Sed venenatis lacinia consectetur. Praesent sit amet blandit erat. Donec interdum facilisis odio vitae condimentum. Pellentesque tristique, justo at hendrerit finibus, sem lectus pretium dui, sit amet suscipit lectus lectus at mi.</p>
+    <p class="modal-first-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi vel ante venenatis, in vulputate enim viverra. Sed tristique libero ut massa dignissim laoreet. Pellentesque lacinia nunc porta, tincidunt metus id, euismod est. Morbi scelerisque urna sapien, non condimentum nulla sagittis ac. Ut ac diam vel arcu tempus consequat. Mauris ultrices purus quis nibh consequat auctor. Cras vitae magna ut sem eleifend auctor non vitae elit. Sed venenatis lacinia consectetur. Praesent sit amet blandit erat. Donec interdum facilisis odio vitae condimentum. Pellentesque tristique, justo at hendrerit finibus, sem lectus pretium dui, sit amet suscipit lectus lectus at mi.</p>
 
     <p>Aliquam vel neque enim. Etiam at eleifend mauris, a dapibus turpis. In orci quam, ultricies vel elit eu, mattis venenatis ante. Proin efficitur urna odio, nec pharetra nisi convallis vitae. Ut sed arcu vel ipsum scelerisque efficitur a quis odio. Morbi iaculis a dolor vitae rhoncus. Phasellus ut luctus sem.</p>
 
@@ -180,7 +180,7 @@
 </div>
 </div>
 
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="project-1">
+<div class="modal fade" tabindex="-1" role="dialog" id="project-1">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -195,7 +195,7 @@
             src="dist/images/fields-868.jpeg" alt="Aerial view of field" class="img-responsive">
         </picture>
     </figure>
-    <p id="modal-first-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi vel ante venenatis, in vulputate enim viverra. Sed tristique libero ut massa dignissim laoreet. Pellentesque lacinia nunc porta, tincidunt metus id, euismod est. Morbi scelerisque urna sapien, non condimentum nulla sagittis ac. Ut ac diam vel arcu tempus consequat. Mauris ultrices purus quis nibh consequat auctor. Cras vitae magna ut sem eleifend auctor non vitae elit. Sed venenatis lacinia consectetur. Praesent sit amet blandit erat. Donec interdum facilisis odio vitae condimentum. Pellentesque tristique, justo at hendrerit finibus, sem lectus pretium dui, sit amet suscipit lectus lectus at mi.</p>
+    <p class="modal-first-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi vel ante venenatis, in vulputate enim viverra. Sed tristique libero ut massa dignissim laoreet. Pellentesque lacinia nunc porta, tincidunt metus id, euismod est. Morbi scelerisque urna sapien, non condimentum nulla sagittis ac. Ut ac diam vel arcu tempus consequat. Mauris ultrices purus quis nibh consequat auctor. Cras vitae magna ut sem eleifend auctor non vitae elit. Sed venenatis lacinia consectetur. Praesent sit amet blandit erat. Donec interdum facilisis odio vitae condimentum. Pellentesque tristique, justo at hendrerit finibus, sem lectus pretium dui, sit amet suscipit lectus lectus at mi.</p>
 
     <p>Aliquam vel neque enim. Etiam at eleifend mauris, a dapibus turpis. In orci quam, ultricies vel elit eu, mattis venenatis ante. Proin efficitur urna odio, nec pharetra nisi convallis vitae. Ut sed arcu vel ipsum scelerisque efficitur a quis odio. Morbi iaculis a dolor vitae rhoncus. Phasellus ut luctus sem.</p>
 
@@ -211,7 +211,7 @@
 
 
 
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="project-2">
+<div class="modal fade" tabindex="-1" role="dialog" id="project-2">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -226,7 +226,7 @@
             src="dist/images/frog-868.jpeg" alt="Frog in pond" class="img-responsive">
         </picture>
     </figure>
-    <p id="modal-first-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi vel ante venenatis, in vulputate enim viverra. Sed tristique libero ut massa dignissim laoreet. Pellentesque lacinia nunc porta, tincidunt metus id, euismod est. Morbi scelerisque urna sapien, non condimentum nulla sagittis ac. Ut ac diam vel arcu tempus consequat. Mauris ultrices purus quis nibh consequat auctor. Cras vitae magna ut sem eleifend auctor non vitae elit. Sed venenatis lacinia consectetur. Praesent sit amet blandit erat. Donec interdum facilisis odio vitae condimentum. Pellentesque tristique, justo at hendrerit finibus, sem lectus pretium dui, sit amet suscipit lectus lectus at mi.</p>
+    <p class="modal-first-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi vel ante venenatis, in vulputate enim viverra. Sed tristique libero ut massa dignissim laoreet. Pellentesque lacinia nunc porta, tincidunt metus id, euismod est. Morbi scelerisque urna sapien, non condimentum nulla sagittis ac. Ut ac diam vel arcu tempus consequat. Mauris ultrices purus quis nibh consequat auctor. Cras vitae magna ut sem eleifend auctor non vitae elit. Sed venenatis lacinia consectetur. Praesent sit amet blandit erat. Donec interdum facilisis odio vitae condimentum. Pellentesque tristique, justo at hendrerit finibus, sem lectus pretium dui, sit amet suscipit lectus lectus at mi.</p>
 
     <p>Aliquam vel neque enim. Etiam at eleifend mauris, a dapibus turpis. In orci quam, ultricies vel elit eu, mattis venenatis ante. Proin efficitur urna odio, nec pharetra nisi convallis vitae. Ut sed arcu vel ipsum scelerisque efficitur a quis odio. Morbi iaculis a dolor vitae rhoncus. Phasellus ut luctus sem.</p>
 
@@ -246,11 +246,11 @@
     <form class="horizontal">
       <div class="form-group">
         <label for="name-input">Your name</label>
-        <input type="name" class="form-control" id="name input" placeholder="What's your name?">
+        <input type="text" class="form-control" id="name-input" placeholder="What's your name?">
     </div>
     <div class="form-group">
         <label for="email-input">Email address</label>
-        <input type="email" class="form-control" id="email input" placeholder="Which email address should I contact you at?">
+        <input type="email" class="form-control" id="email-input" placeholder="Which email address should I contact you at?">
     </div>
     <label for="textarea">Message</label>
     <textarea class="form-control" id="textarea" rows="5" placeholder="Enter your message here"></textarea>
@@ -270,9 +270,11 @@
 
 <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.9/scrollreveal.min.js"></script>
 
-<script language="javascript">
+<script>
 window.sr = ScrollReveal();
-sr.reveal('.featured-work-col', { duration: 1000 }  );
+sr.reveal('header', { duration: 1000 });
+sr.reveal('#main-image', { duration: 1000 });
+sr.reveal('.featured-work-col', { duration: 1000 });
 sr.reveal('#contact-me', { duration: 2000 });
 </script>
 
