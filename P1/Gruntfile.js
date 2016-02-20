@@ -10,7 +10,7 @@ module.exports = function(grunt) {
             quality: 40
           }, {
             width: 868,
-            quality: 70
+            quality: 100
           }, {
             width: 1140,
             quality: 80
